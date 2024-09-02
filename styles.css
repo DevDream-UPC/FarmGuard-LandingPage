@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: rgba(23, 23, 23, 1);
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo h2 {
+    margin-left: 15px;
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: white;
+}
+
+.sections a {
+    margin: 0 30px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.sections button {
+    margin-left: 35px;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(23, 23, 23, 1);
+    border: 3px solid rgba(74, 222, 128, 1);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.sections button:hover {
+    background-color: rgba(74, 222, 128, 1);
+}
+
+.first {
+    display: flex;
+    align-content: center;
+    margin: 8em 5em;
+    gap: 150px;
+}
+
+.start {
+    margin: 2.5em;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(74, 222, 128, 1);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none
+}
+
+.subtitle1, .subtitle2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 50px;
+    color: white;
+}
+
+.subtitle2 {
+    color: rgba(74, 222, 128, 1);
+}
+
+.garden-image img {
+    width: 600px;
+    margin-right: 60px;
+}
