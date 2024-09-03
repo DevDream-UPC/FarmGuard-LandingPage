@@ -4,6 +4,12 @@ body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
+header{
+    position: fixed;
+    background-color: rgba(23, 23, 23, 1);
+    width: 100%;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -53,8 +59,8 @@ body {
 
 .first {
     display: flex;
-    align-content: center;
-    margin: 8em 5em;
+    align-items: center;
+    padding: 10em 5em 7em 5em;
     gap: 150px;
 }
 
@@ -83,4 +89,44 @@ body {
 .garden-image img {
     width: 600px;
     margin-right: 60px;
+}
+
+.second {
+    padding-left: 5em;
+}
+
+.grid {
+    padding-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.section1 {
+    width: 50%;
+
+    & h1 {
+        color: rgba(74, 222, 128, 1);
+    }
+}
+
+.section2 img {
+    width: 350px;
+}
+
+.section3 img {
+    width: 350px;
+}
+
+.section4 img {
+    width: 350px;
+}
+
+.section5 img {
+    width: 350px;
+}
+
+.section6 img {
+    width: 350px;
 }
