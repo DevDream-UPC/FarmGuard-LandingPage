@@ -1,20 +1,106 @@
 body {
     margin: 0;
-    background-color: rgba(23, 23, 23, 1);
+    background-color: #171717;
+    padding: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-.header {
+/*eL REFACTOR*/
+
+.redes{
+    height: 33px;
+    padding: 10px;
+    background-color: #4ADE80;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    >i{
+        font-size: 25px;
+    }
+}
+
+.navbar{
+    color:#4ADE80 ;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 30px 80px;
+    background-color: #171717;
+    padding: 15px;
+
+    .sidebar{
+        display: flex;
+        list-style-type: none;
+        gap: 10px;
+        align-items: flex-end;
+        align-items: center;
+    };
+
+    .navegacion ul li a{
+        display: block;
+        color:#ffffff;
+        text-decoration: none;
+        
+    }
+
+    .navegacion ul li a:hover{
+        text-decoration: underline;
+        color: white;
+    }
+}
+
+.boton-sidebar{
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: #4ADE80;
+    
+}
+
+.boton-reserva{
+    background-color: #171717;
+    padding: 18px;
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 221px;
+    border-color: #4ADE80;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.boton-reserva:hover{
+   background-color: #4ADE80;
+   color: white;
+}
+
+/*###################33*/
+
+
+
+
+.header {
+    position: relative;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    color: white;
+    font-size: 32px;
+    font-weight: 600px;
+    color: #ffffff;
+    >img{
+        width: 49px;
+        height: 64px;
+        margin-right: 12px;
+        
+    }
+    >h3{
+        margin: 0;
+    }
 }
 
 .logo h2 {
