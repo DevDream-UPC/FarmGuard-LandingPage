@@ -20,10 +20,10 @@
     </div>
     <div class="navbar">
         <div class="logo">
-            <img src="/assets/images/logo-farmGuard.png" alt="Logo FarmGuard">
+            <img src="./assets/images/logo-farmGuard.png" alt="Logo FarmGuard">
             <h3>FARMGUARD</h3>
         </div>
-        <button class="boton-sidebar" ><i class="fa-solid fa-bars"></i></button>
+        
         <nav class="navegacion">
             <ul class="sidebar" >
                 <li><a href="#Home">Home</a></li>
@@ -33,14 +33,14 @@
                 <li><a href="#Contact us">Contact us</a></li>
             </ul>
         </nav>
-        <button class="boton-reserva">Start now</button>
+        <button class="boton-reserva" id="action-button">Start now</button>
     </div>
 </header>
 <div class="first" id="Home">
     <div>
         <p class="subtitle1">"Vigila la salud y bienestar de tus animales</p>
         <p class="subtitle2">en tiempo real, estés donde estés"</p>
-        <button class="start">Empieza Ahora</button>
+        
     </div>
     <div class="garden-image">
         <img src="./assets/garden.png" alt="Jardin">
@@ -84,36 +84,68 @@
         </div>
     </div>
 </section>
-<section id="Plans"> <!--seccion de los planes-->
-    <div class="plans-container">
-        <h2>MEJORA TU PLAN</h2>
-        <h3>DESARROLLA TU GESTIÓN <br>POTENCIA EL CONTROL DE TU GRANJA</h3>
-        <p2>Planes exclusivos para nuestros diferentes tipos de clientes.</p2>
-        <div class="plans">
-            <div class="plan free">
-                <h4>FREE</h4>
-                <p>Tu plan</p>
-                <ul>
-                    <li>✔ Desventaja 1</li>
-                    <li>✔ Desventaja 2</li>
-                    <li>✔ Desventaja 3</li>
-                    <li>✔ Desventaja 4</li>
-                </ul>
-                <a href="#">Términos y Condiciones</a>
-            </div><!--plan gratis-->
-            <div class="plan guard">
-                <h4>GUARD</h4>
-                <p>Precio</p>
-                <ul>
-                    <li>✔ Beneficio 1</li>
-                    <li>✔ Beneficio 2</li>
-                    <li>✔ Beneficio 3</li>
-                    <li>✔ Beneficio 4</li>
-                </ul>
-                <a href="#">Términos y Condiciones</a>
-            </div><!--plan guard-->
 
+<section id="Plans"> 
+    <div class="phrase-plan">
+        <h2 class="phrase-plan-white">MEJORA TU PLAN</h2>
+        <h2 class="phrase-plan-gree">DESARROLLA TU GESTIÓN <br> POTENCIA EL CONTROL DE TU GRANJA</h2>
+
+    </div>
+    <div class="cards-plans">
+        <div class="card-plan"> 
+            <div class="card-plan-header-free">
+                <div class="title-card">
+                    <h1>Free</h1>
+                    <ul>
+                        <li>Muestra de las capacidades de la aplicacion</li>
+                        <li>Capacidad diseñada para centros veterinarios o granjas</li>
+                        <li>Monitoreo en tiempo real</li>
+                    </ul>
+                </div>
+                
+                <div class="card-plan-price-free">
+                    <h3>Free</h3>
+                </div>
+            </div>
         </div>
+        <div class="card-plan">
+            <div class="card-plan-header-platinum">
+                <div class="title-card">
+                    <h1>Platinum</h1>
+                    <ul>
+                        <li>Diseñada para veterinarios</li>
+                        <li>Capacidad diseñada para centros veterinarios</li>
+                        <li>Monitoreo en tiempo real</li>
+                        <li>Almacenamiento de vacunas</li>
+                    </ul>
+                </div>
+                
+                <div class="card-plan-price-platinum">
+                    <h3>$5</h3>
+                </div>
+            </div>
+        </div>
+        <div class="card-plan">
+            <div class="card-plan-header-gold">
+                <div class="title-card">
+                    <h1>Gold</h1>
+                    <ul>
+                        <li>Diseñada para granjas</li>
+                        <li>Capacidad diseñada para grandes cantidades de animales</li>
+                        <li>Monitoreo en tiempo real</li>
+                        <li>Almacenamiento de vacunas</li>
+                        <li>Datos de los animales en tiempo real</li>
+                    </ul>
+                </div>
+                <div class="card-plan-price-gold">
+                    <h3>$10</h3>
+                </div>
+            </div>
+        </div>
+            
+            
+        </div>
+        
     </div>
 </section>
 <section id="About Us">
@@ -166,5 +198,7 @@
         </div>
     </div>
 </footer>
+
+<script src="./assets/scripts/script.js"></script>
 </body>
 </html>
